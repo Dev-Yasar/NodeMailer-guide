@@ -1,7 +1,7 @@
 # Send a html mail using nodejs
 
 First create your Html mail template here [enginemailer](www.enginemailer.com)
-
+[![AGPL License](https://img.shields.io/badge/Made%20by%20%E2%9D%A4%EF%B8%8F-yasar-blue)](http://www.gnu.org/licenses/agpl-3.0)
 install dependencies 
 
 ```js
@@ -10,27 +10,29 @@ npm install express nodemailer
 
 Mailer.js
 
-```nodejs
-
+```js
+// reference for packages
 const express = require('express');
 const nodemailer = require('nodemailer');
 
 
-var EmailTemplate = `hi , ${name}` This is an test mail;  // put your html content
 
+// route for send mail
 app.get('/sendmail', async (req, res) => {
      
      // the values are from frontend 
      var name = req.body.name;
      var email = req.body.email
      
-     MailSender(name,email)  
+     MailSender(name,email);
 
 
-	res.json(paw);
+	res.json("email send succesfully :)");
 })
 
 function MailSender(name,email){
+
+             var EmailTemplate = `<h1> Hi,${name}` this is an test mail</h1> ;  // put your html content
 
             var transporter = nodemailer.createTransport({
               service: 'gmail', //put your mail service
