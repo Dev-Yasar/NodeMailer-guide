@@ -1,4 +1,6 @@
 # Send a html mail using nodejs
+![Logo](https://mailtrap.io/wp-content/uploads/2019/09/How-to-Set-up-Nodemailer-with-Gmail-02.png)
+
 
 First create your Html mail template here [enginemailer](www.enginemailer.com)
 
