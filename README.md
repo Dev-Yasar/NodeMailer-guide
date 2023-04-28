@@ -2,7 +2,7 @@
 ![Logo](https://mailtrap.io/wp-content/uploads/2019/09/How-to-Set-up-Nodemailer-with-Gmail-02.png)
 
 
-## First create your Html mail template here [enginemailer](www.enginemailer.com)
+## First create your Html mail template here [enginemailer](https://www.enginemailer.com/html-email-builder?t=blank)
 
 [![AGPL License](https://img.shields.io/badge/Made%20by%20%E2%9D%A4%EF%B8%8F-yasar-blue)](http://www.gnu.org/licenses/agpl-3.0)
 
